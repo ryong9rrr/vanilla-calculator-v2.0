@@ -11,10 +11,12 @@
   "license": "ISC",
   "scripts": {
     "test": "jest --watch",
+    "test:cypress": "cypress open",
     "dev": "webpack serve --open --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js --env PROD"
   },
   "devDependencies": {
+    "@types/chai": "^4.3.4",
     "@types/jest": "^29.5.0",
     "@types/jsdom": "^21.1.1",
     "@types/node": "^18.15.11",
@@ -22,6 +24,7 @@
     "@typescript-eslint/parser": "^5.57.0",
     "css-loader": "^6.7.3",
     "css-minimizer-webpack-plugin": "^5.0.0",
+    "cypress": "^12.9.0",
     "dotenv-webpack": "^8.0.1",
     "eslint-config-airbnb-typescript": "^17.0.0",
     "eslint-config-prettier": "^8.8.0",

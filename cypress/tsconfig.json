@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
     "lib": ["esnext", "DOM"],
-    //"types": ["cypress", "node"], // cypress 용 설정
-    "sourceMap": true,
+    "types": ["cypress", "node"],
+    //"sourceMap": true, // 웹팩과 cypress를 사용할 때 이 옵션은 꺼야함.
     "strict": true,
     "noImplicitAny": true,
     "module": "es6",
@@ -19,5 +19,5 @@
     }
   },
   "exclude": ["node_modules", "**/*.css", "**/*.json"],
-  "include": ["src"]
+  "include": ["**/*.ts"]
 }

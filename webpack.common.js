@@ -24,7 +24,7 @@ module.exports = (env) => {
         {
           test: /\.tsx?$/,
           use: "ts-loader",
-          exclude: [/\.test\.tsx?$/, /node_modules/],
+          exclude: [/\.test\.tsx?$/, /node_modules/, /cypress/],
         },
         {
           test: /\.s?css$/,
