@@ -105,6 +105,9 @@ export default class App extends Component<Props, State> {
   }
 
   handleClickExp(val: string) {
+    if (!this.state.exp && val === "0") {
+      return
+    }
     const nextExp = this.state.exp ? this.state.exp + val : val
     this.setState({ exp: nextExp })
   }
