@@ -113,10 +113,10 @@ export default class App extends Component<Props, State> {
   }
 
   handleClickDel() {
-    const nextExp =
-      this.state.exp.length > 0
-        ? this.state.exp.slice(0, this.state.exp.length - 1)
-        : ""
+    if (this.state.exp.length === 0) {
+      return
+    }
+    const nextExp = this.state.exp.slice(0, this.state.exp.length - 1)
     this.setState({ exp: nextExp })
   }
 
@@ -126,6 +126,9 @@ export default class App extends Component<Props, State> {
 
   handleClickEqual() {
     try {
+      if (!this.state.exp || this.state.exp === "0") {
+        return
+      }
       const result = this.props.calculatorService.calculate(this.state.exp)
       this.setState({ exp: String(result) })
     } catch (error) {
