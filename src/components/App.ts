@@ -1,6 +1,6 @@
+import { ui } from "sangyoon-ui"
 import "./App.scss"
-import { Component } from "@/@modules/core"
-import { CalculatorServiceImpl } from "@/@modules/interfaces/impls"
+import { CalculatorServiceImpl } from "@/modules/interfaces/impls"
 import { hasClassFor } from "@/utils"
 
 interface Props {
@@ -31,7 +31,7 @@ const createActionTypeForButton = ($button: HTMLButtonElement) => {
   return ""
 }
 
-export default class App extends Component<Props, State> {
+export default class App extends ui.Component<Props, State> {
   initState() {
     return {
       exp: "",
