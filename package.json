@@ -16,7 +16,7 @@
     "build": "webpack --config webpack.prod.js --env PROD"
   },
   "dependencies": {
-    "sangyoon-ui": "^1.0.2"
+    "sangyoon-ui": "^1.0.3"
   },
   "devDependencies": {
     "@types/jest": "^29.5.0",
