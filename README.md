@@ -4,7 +4,9 @@
 
 [과거에 진행했던 계산기 앱](https://github.com/ryong9rrr/calculator-v1.0)을 다시 구현합니다.
 
-- [x] **바닐라 타입스크립트**로 직접 구현한, 컴포넌트 기반의 UI 프레임워크를 이용해서 다시 구현합니다.
+- [x] **바닐라 타입스크립트**로 직접 구현한 컴포넌트 기반의 UI 프레임워크인 `sangyoon-ui`를 사용해서 구현했습니다.
+
+  - `sangyoon-ui`는 직접 구현한 UI 프레임워크로, [https://github.com/ryong9rrr/sangyoon-ui](https://github.com/ryong9rrr/sangyoon-ui)에서 확인하실 수 있습니다.
 
 - [x] jest를 이용해서 비지니스 로직을 테스트 해봅니다.
 
