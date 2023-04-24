@@ -6228,10 +6228,10 @@ safe-regex-test@^1.0.0:
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
-sangyoon-ui@^1.1.4:
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/sangyoon-ui/-/sangyoon-ui-1.1.4.tgz#bf0ef7f9b5ae55f70069aa03fdac586040c763ea"
-  integrity sha512-hnqVELDXm1FBsqr43tnsitiJPZ6YhEjqTlf3Z9CQhT6SoJfcqOUhKzhGXK5IsiXaow42LsFpXAV3csCEvtYj4w==
+sangyoon-ui@^1.1.5:
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/sangyoon-ui/-/sangyoon-ui-1.1.5.tgz#fcfcf2d4fbe48db4f2e4c07496026776f0260661"
+  integrity sha512-xF0R8lEn7ck3HPQm0loQXa4Q8ukBMWeaZvdWZXI48nG2vgt1rHdaJK/zAnzxjqc0EQA/zbtIRson20TrVpagAA==
 
 sass-graph@^4.0.1:
   version "4.0.1"
