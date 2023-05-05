@@ -16,7 +16,7 @@
     "build": "webpack --config webpack.prod.js --env PROD"
   },
   "dependencies": {
-    "sangyoon-ui": "^1.1.5"
+    "sangyoon-ui": "^1.1.8"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "2.8.3",
